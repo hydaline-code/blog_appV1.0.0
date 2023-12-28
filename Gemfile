@@ -14,6 +14,8 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
+gem 'sass-rails', '~> 6.0'
+
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
@@ -45,6 +47,13 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
+# bulma css
+gem 'bulma-rails', '~> 0.9.4'
+
+gem 'simple_form', '~> 5.3'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
