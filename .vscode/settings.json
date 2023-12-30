@@ -1,0 +1,9 @@
+{
+  "editor.indentSize": "tabSize",
+  "workbench.settings.useSplitJSON": false,
+  "workbench.editor.enablePreview": true,
+  "editor.codeActionsOnSave": {}
+  
+  
+}
+
